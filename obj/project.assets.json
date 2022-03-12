@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "/Users/martinwiulsrod/.nuget/packages/": {}
+    "C:\\Users\\wiu75\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/martinwiulsrod/Code/nerdulator/nerdulator.csproj",
+      "projectUniqueName": "C:\\Users\\wiu75\\Documents\\Code\\nerdulator\\nerdulator.csproj",
       "projectName": "nerdulator",
-      "projectPath": "/Users/martinwiulsrod/Code/nerdulator/nerdulator.csproj",
-      "packagesPath": "/Users/martinwiulsrod/.nuget/packages/",
-      "outputPath": "/Users/martinwiulsrod/Code/nerdulator/obj/",
+      "projectPath": "C:\\Users\\wiu75\\Documents\\Code\\nerdulator\\nerdulator.csproj",
+      "packagesPath": "C:\\Users\\wiu75\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\wiu75\\Documents\\Code\\nerdulator\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/martinwiulsrod/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\wiu75\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.201/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }
