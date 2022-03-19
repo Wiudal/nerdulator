@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/wiu753/nerdulator#readme",
   "dependencies": {
+    "@tailwindcss/forms": "^0.5.0",
     "autoprefixer": "^10.4.4",
     "postcss": "^8.4.12",
     "postcss-cli": "^9.1.0",
