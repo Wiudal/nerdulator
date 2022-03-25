@@ -1,4 +1,4 @@
-﻿<!-- This example requires Tailwind CSS v2.0+ -->
+<!-- This example requires Tailwind CSS v2.0+ -->
 <nav class="bg-gray-800">
     <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
         <div class="relative flex items-center justify-between h-16">
@@ -66,7 +66,7 @@
     </div>
 
     <!-- Mobile menu, show/hide based on menu state. -->
-    <div class="sm:hidden" id="mobile-menu">
+    <div class="@NavMenuCssClass sm:hidden" id="mobile-menu">
         <div class="px-2 pt-2 pb-3 space-y-1">
             <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
 
@@ -90,11 +90,10 @@
 
 @code {
     private bool collapseNavMenu = true;
-    private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+    private string? NavMenuCssClass => collapseNavMenu ? "hidden" : "block";
 
     private void ToggleNavMenu()
     {
-        System.Console.WriteLine("hello");
         collapseNavMenu = !collapseNavMenu;
     }
 }
