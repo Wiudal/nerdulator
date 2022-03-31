@@ -2,4 +2,53 @@
 
 <PageTitle>Converter</PageTitle>
 
-<h1 class="">Converter</h1>
+<h1 class="mb-20">Converter</h1>
+
+<!--
+  This example requires Tailwind CSS v2.0+ 
+  
+  This example requires some changes to your config:
+  
+  ```
+  // tailwind.config.js
+  module.exports = {
+    // ...
+    plugins: [
+      // ...
+      require('@tailwindcss/forms'),
+    ],
+  }
+  ```
+-->
+<div class="mb-10">
+  <label for="phone-number" class="block text-sm font-medium text-gray-700">First Number</label>
+  <div class="mt-1 relative rounded-md shadow-sm">
+    <div class="absolute inset-y-0 left-0 flex items-center">
+      <label for="number" class="sr-only">Number</label>
+      <select id="number" name="number" autocomplete="number" class="focus:ring-indigo-500 focus:border-indigo-500 h-full py-0 pl-3 pr-7 border-transparent bg-transparent text-gray-500 sm:text-sm rounded-md">
+        <option>Decimal</option>
+        <option>Binary</option>
+        <option>HEX</option>
+        <option>ASCII</option>
+      </select>
+    </div>
+    <input type="text" name="phone-number" id="phone-number" class="focus:ring-indigo-500 focus:border-indigo-500 block w-full pl-24 sm:text-sm border-gray-300 rounded-md" placeholder="10">
+  </div>
+</div>
+
+<div>
+  <label for="phone-number" class="block text-sm font-medium text-gray-700">Second Number</label>
+  <div class="mt-1 relative rounded-md shadow-sm">
+    <div class="absolute inset-y-0 left-0 flex items-center">
+      <label for="number2" class="sr-only">Country</label>
+      <select id="number2" name="number2" autocomplete="number2" class="focus:ring-indigo-500 focus:border-indigo-500 h-full py-0 pl-3 pr-7 border-transparent bg-transparent text-gray-500 sm:text-sm rounded-md">
+        <option>Binary</option>
+        <option>Decimal</option>
+        <option>HEX</option>
+        <option>ASCII</option>
+      </select>
+    </div>
+    <input type="text" name="phone-number" id="phone-number" class="focus:ring-indigo-500 focus:border-indigo-500 block w-full pl-24 sm:text-sm border-gray-300 rounded-md" placeholder="1010">
+  </div>
+</div>
+
